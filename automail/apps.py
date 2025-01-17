@@ -8,3 +8,6 @@ class AutomailConfig(AppConfig):
     def ready(self) -> None:
         from . import signals
         return super().ready()
+    
+    # @app.task(bind=True)
+# def debug_task(self):

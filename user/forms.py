@@ -21,3 +21,4 @@ class CustomUserChangeForm(UserChangeForm):
         model = User
         fields = ("email",)
         #email automation
+        
